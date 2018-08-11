@@ -61,7 +61,7 @@ public class WeatherActivity extends AppCompatActivity {
         if (Build.VERSION.SDK_INT>=21){
             View decorView = getWindow().getDecorView();
             decorView.setSystemUiVisibility(View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN | View.SYSTEM_UI_FLAG_LAYOUT_STABLE);
-            getWindow().setStatusBarColor(Color.TRANSPARENT);
+            getWindow().setStatusBarColor(Color.argb(100,23,24,25));
         }
         setContentView(R.layout.activity_weather);
         //初始化控件
